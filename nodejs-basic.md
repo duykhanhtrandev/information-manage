@@ -5,3 +5,4 @@
 5. Express App (Hello world)
 6. View Engines (EJS)
 7. Static File, (file môi trường - env)
+8. Routers & MVC Design Pattern
