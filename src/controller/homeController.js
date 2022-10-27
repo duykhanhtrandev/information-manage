@@ -13,7 +13,7 @@ let getHomePage = (req, res) => {
         address: row.address,
       });
     });
-    return res.render('index.ejs', { dataUser: JSON.stringify(data) });
+    return res.render('index.ejs', { dataUser: data, test: 'abc string test' });
   });
 };
 

@@ -6,3 +6,5 @@
 6. View Engines (EJS)
 7. Static File, (file môi trường - env)
 8. Routers & MVC Design Pattern
+9. HTTP Request Method/Database
+10. Create Nav / EJS LOOP
