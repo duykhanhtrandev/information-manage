@@ -11,3 +11,6 @@ npm i --save-exact mysql2@2.3.0 (mySQL)
 
 -- for loop --
 https://stackoverflow.com/questions/22952044/loop-through-json-in-ejs
+
+-- body-parser --
+https://stackoverflow.com/questions/38306569/what-does-body-parser-do-with-express
