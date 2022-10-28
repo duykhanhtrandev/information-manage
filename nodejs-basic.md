@@ -8,3 +8,4 @@
 8. Routers & MVC Design Pattern
 9. HTTP Request Method/Database
 10. Create Nav / EJS LOOP
+11. Detail users/ Router Params

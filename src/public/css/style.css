@@ -26,3 +26,23 @@ body {
   background-color: #04AA6D;
   color: white;
 }
+
+button {
+  background-color: blue;
+  color: #FFF;
+  border: none;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+button:last-child {
+  background-color: red;
+}
+
+button:nth-of-type(2) {
+  background-color: green;
+}
+
+button a {
+  text-decoration: none;
+}
