@@ -31,8 +31,9 @@ body {
   color: white;
 }
 
-.action-btn {
+/* .action-btn {
   background-color: blue;
+  cursor: pointer;
   color: #FFF;
   border: none;
   padding: 4px;
@@ -49,7 +50,7 @@ body {
 
 .action-btn a {
   text-decoration: none;
-}
+} */
 
 .create-user-container {
   margin: 15px;
@@ -69,6 +70,24 @@ body {
 }
 
 .create-user-container .btn-submit {
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.delete-form {
+  display: inline;
+}
+
+.update-user-container {
+  padding: 15px;
+  text-align: center;
+}
+
+.update-user-container label {
+  display: block;
+}
+
+.btn-save {
   margin-top: 15px;
   cursor: pointer;
 }
