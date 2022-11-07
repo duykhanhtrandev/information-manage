@@ -7,7 +7,7 @@ import initAPIRoute from './route/api';
 require('dotenv').config();
 
 const app = express();
-const port = process.env.PORT || 808;
+const port = process.env.PORT || 8080;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -20,6 +20,11 @@ initWebRoute(app);
 
 // init API route
 initAPIRoute(app);
+
+// handle 404 not found
+app.use((req, res) => {
+  return res.render('404.ejs');
+});
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
