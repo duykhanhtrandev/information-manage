@@ -39,21 +39,21 @@
               <td><%= dataUser[i].id %></td>
               <td><%= dataUser[i].firstName %></td>
               <td><%= dataUser[i].lastName %></td>
-              <td>
-                <button type="button">
-                  <a href="/detail/user/<%= dataUser[i].id %>" target="_blank">
+              <td style="display: flex; gap: 12px;">
+                <form type="button">
+                  <a class="btn-detail" href="/detail/user/<%= dataUser[i].id %>" target="_blank">
                     Detail <i class="fa-solid fa-info-circle"></i>
                   </a>
-                </button>
+                </form>
                 <form action="/edit-user/<%= dataUser[i].id %>" method="GET">
-                  <button type="submit">
+                  <button class="btn-edit" type="submit">
                     Edit 
                     <i class="fa-solid fa-pen-to-square"></i>
                   </button>
                 </form>
                 <form action="/delete-user" method="POST" class="delete-form">
                   <input type="text" hidden value="<%= dataUser[i].id %>" name="userId"/>
-                  <button type="submit">
+                  <button class="btn-delete" type="submit">
                     Delete 
                     <i class="fa-solid fa-trash"></i>
                   </button>
